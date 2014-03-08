@@ -1,1 +1,6 @@
 *~
+/*.suo
+/*.sdf
+/Debug/
+/aeife/*.user
+/aeife/Debug/

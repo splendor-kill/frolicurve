@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{ebb44b85-b29a-4c6f-b886-fa39b11fa4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{8a5cc772-64b4-42f7-b324-adbcdd6a1b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entry">
+      <UniqueIdentifier>{c06024f3-b33c-4317-b3b8-6defc70d1690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl">
+      <UniqueIdentifier>{71b01152-3dad-4fd9-ad30-6fcba04a18d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="td_vec3.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="aeife.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="eiMath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="td_vec3.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.txt">
+      <Filter>docs</Filter>
+    </None>
+  </ItemGroup>
+</Project>
